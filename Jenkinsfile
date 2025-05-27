@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/<your-username>/my-simple-project.git', branch: 'main'
+                git url: 'https://github.com/<Swap6000>/my-simple-project.git', branch: 'main'
             }
         }
         stage('Build') {
